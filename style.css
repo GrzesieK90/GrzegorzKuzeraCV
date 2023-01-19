@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(26, 26, 26);
+}
+
+.container {
+  background: linear-gradient(180deg, rgb(0,0,0), rgb(0,0,0), rgb(100, 100, 100), rgb(200, 200, 200), rgb(200, 200, 200));
+  height: 60vh;
+  width: 60vw;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 20vh;
+  color: white;
+  text-align: center;
+}
+
+
+
+button {
+  height: 8vh;
+  width: 16vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}

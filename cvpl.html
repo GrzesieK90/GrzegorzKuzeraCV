@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js" defer></script>
+
+        <meta name="description" content="Grzegorz Kuzera CV">
+
+        <title>CV - Grzegorz Kuzera</title>
+    </head>
+
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Grzegorz Kuzera</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="li nav__item">
+                            <a href="#home" class="a nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="a nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="a nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="a nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="a nav__link">
+                                <i class='bx bx-briefcase nav__icon' ></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="a nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>Projects
+                            </a>
+                        </li>
+
+                        <!-- <li class="nav__item">
+                            <a href="#certificates" class="a nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/profil.jpg" alt="profil img" class="home__img">
+
+                                <h1 class="home__title"><b>Grzegorz</b> Kuzera</h1>
+                                <h3 class="home__profession">Full Stack Web Developer</h3>
+
+                                <!-- Button to downLoad the CV saved in the pdf folder. Available for mobile -->
+                                <div>
+                                    <a download="" href="assets/pdf/Grzegorz_Kuzera-CV.pdf" class="home__button-mobile"> Download </a>
+                                </div>
+                            </div>
+
+                            <div class="home__addres bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Benejuzar, Hiszpania
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i>
+                                    <a href="mailto:greg.dev.k@gmail.com">
+                                        greg.dev.k@gmail.com</a> 
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i>
+                                    <a href="tel:+34642239431">
+                                        +34 642 23 94 31
+                                    </a> 
+                                </span>
+                            </div>
+                        </div>    
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title = 'Theme' id = 'theme-button' ></i>
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class="bx bx-download generate-pdf" title = 'Generate PDF' id = 'resume-button' ></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Społecznościowe</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/grzegorz-kuzera-86ba47262/" target="_blank" class="social__link"> 
+                                <i class="bx bxl-linkedin-square social__icon"></i> @grzegorz-kuzera-86ba47262
+                            </a>
+                            <a href="https://www.facebook.com/Grzesiek900214" target="_blank" class="social__link"> 
+                                <i class="bx bxl-facebook-square social__icon"></i> @Grzesiek900214
+                            </a>
+                            <!-- <a href="https://www.instagram.com/catalin_babalau" target="_blank" class="social__link"> 
+                                <i class="bx bxl-instagram social__icon"></i> @catalin-babalau
+                            </a> -->
+                            <a href="https://github.com/GrzesieK90/" target="_blank" class="social__link"> 
+                                <i class="bx bxl-github social__icon"></i> @GrzesieK90
+                            </a>
+
+                        </div>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Edukacja</h2>
+                    
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Full Stack Web Development</h3>
+                                <span class="education__studies">Zero to Mastery Academy on Udemy</span>
+                                <span class="education__year">CZE 2022 - GRU 2022</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Technikum Geodezyjne</h3>
+                                <span class="education__studies">Zespół Szkół Technicznych Nr.4 w Toruniu, Polska</span>
+                                <span class="education__year">2006 - 2010</span>
+                            </div>
+                        </div>
+                        
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Szkoła Gimnazjalna</h3>
+                                <span class="education__studies">Rzęczkowo 59, Polska</span>
+                                <span class="education__year">2003 - 2006</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Szkoła Podstawowa</h3>
+                                <span class="education__studies">Lążyn I, Polska</span>
+                                <span class="education__year">1997 - 2003</span>
+                            </div>
+                        </div>
+                    </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Umiejętności</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Bootstrap
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>NPM
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Redux
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>PostgreSQL
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>NodeJS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>GitHub
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Git
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profil</h2>
+
+                        <p class="profile__description">
+                            &nbsp;&nbsp;&nbsp;Jestem 33-letnim Full Stack Web Deweloperem z pasją do programowania, projektowania i nowych technologii.  
+                            Uważam się za osobę o wysokich aspiracjach, otwartą, łatwo dostosowującą się do sytuacji i sumienną.<br> 
+                            &nbsp;&nbsp;&nbsp;Lubię rozwiązywać problemy, szukać nowych rozwiązań i stawiać czoła nieznanemu.
+                        </p>
+                    </section>
+
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                    <h2 class="section-title">Doświadczenie Zawodowe</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Monter Konstrukcji Scenicznych</h3>
+                                <span class="experience__company">LIP 2022 - PAŹ 2022 | Montajes Antea</span>
+                                <span class="experience__country">Alicante, Hiszpania</span>
+
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Pracownik Ogólnobudowlany</h3>
+                                <span class="experience__company">MAR 2021 - MAJ 2022 | Haiduk Team</span>
+                                <span class="experience__country">Langenfeld, Rhineland, Niemcy</span>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Pracownik Produkcji</h3>
+                                <span class="experience__company">MAJ 2017 - MAR 2021 | Viverios Rio Eresma</span>
+                                <span class="experience__country">Navalmanzano, Hiszpania</span>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                          <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                          </div>
+
+                          <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Pracownik Produkcji</h3>
+                              <span class="experience__company">CZE - LIS - zatrudnienie sezonowe w latach 2011 - 2017 | Viverios Rio Eresma</span>
+                              <span class="experience__country">Navalmanzano, Hiszpania</span>
+                          </div>
+                        </div>
+
+                        <div class="experience__content">
+                          <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                          </div>
+
+                          <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Rolnictwo - Zbiory Owoców</h3>
+                              <span class="experience__company">PAŹ 2016 - KWI 2017 | Galiempleo ETT</span>
+                              <span class="experience__country">Huelva, Hiszpania</span>
+                          </div>
+                        </div>
+
+                        <div class="experience__content">
+                          <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                          </div>
+
+                          <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Rolnictwo - Zbiory Owoców</h3>
+                              <span class="experience__company">PAŹ 2015 - KWI 2016 | Agromax Agricola</span>
+                              <span class="experience__country">Huelva, Hiszpania</span>
+                          </div>
+                        </div>
+
+                        <div class="experience__content">
+                          <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                          </div>
+
+                          <div class="experience__data bd-grid">
+                              <h3 class="experience__title">Rolnictwo - Zbiory Owoców</h3>
+                              <span class="experience__company">PAŹ 2014 - KWI 2015 | Exito Labor ETT</span>
+                              <span class="experience__country">Cartaya, Hiszpania</span>
+                          </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Rolnictwo - Zbiory Owoców</h3>
+                                <span class="experience__company">PAŹ - KWI zatrudnienie sezonowe w latach 2011 - 2013 | Mariscos Rodrigues</span>
+                                <span class="experience__country">Gibraleon, Hiszpania</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Języki</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Polski (Ojczysty)
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Angielski (B2 - C1)
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Hiszpański (B2 - C1)
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Zainteresowania</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Muzyka</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interests__name">Siłownia</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-cycling interests__icon"></i>
+                                <span class="interests__name">Rowery</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-code-alt interests__icon"></i>
+                                <span class="interests__name">Programowanie</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">Wycieczki</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name">Książki</span>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    </body>
+</html>
