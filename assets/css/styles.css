@@ -671,3 +671,72 @@ a[href^='mailto'] {
     column-gap: 4.5rem;
   }
 }
+@media print {
+  body {
+      font-size: 10pt;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+  }
+
+  .section {
+      page-break-inside: avoid;
+      padding: 0;
+      margin: 0;
+  }
+
+  .resume {
+      min-height: 100vh;
+      page-break-inside: avoid;
+      display: block;
+      width: 100%;
+  }
+
+  .resume__left, .resume__right {
+      page-break-inside: avoid;
+      width: 100%;
+      float: none;
+  }
+
+  .nav, .generate-pdf, .change-theme, .scrolltop {
+      display: none !important;
+  }
+
+  @page {
+      size: A4;
+      margin: 10mm;
+  }
+
+  .home__button-mobile {
+      display: none;
+  }
+
+  .bd-container {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  .home__title {
+      font-size: 1.2rem;
+  }
+
+  .home__profession {
+      font-size: 1rem;
+  }
+
+  .section-title {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+  }
+
+  .skills__data, .languages__content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+  }
+
+  .skills__name, .languages__name {
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+  }
+}
